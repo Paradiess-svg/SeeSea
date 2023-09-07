@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'sans': ['Helvetica', 'Arial', 'sans-serif'],
-      }
+        poppins: ['Poppins'],
+      },
+      colors: {
+        primary: "#01329C",
+      },
     },
   },
   plugins: [],
